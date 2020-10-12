@@ -1,0 +1,44 @@
+using System;
+
+class MainClass {
+  public static void Main (string[] args) {
+   int A, P, imc;
+
+            Console.Write("Digite o dia da semana");
+            P = int.Parse(Console.ReadLine())
+
+            
+            if (P = 1)
+            {
+                Console.WriteLine("domingo");
+            }
+            else if (P = 2)
+            {
+                Console.WriteLine("segunda");
+            }
+            else if (P =3)
+            {
+                Console.WriteLine("terca");
+            }
+            else if (P =4)
+            {
+                Console.WriteLine("quarta");
+            }else if (P = 5)
+            {
+                Console.WriteLine("quinta");
+            }else if (P = 6)
+            {
+                Console.WriteLine("sexta");
+            }
+            else if (P = 7)
+            {
+                Console.WriteLine("sabado");
+            }
+            else  
+            {
+                Console.WriteLine("Obeso");
+            }
+
+            Console.ReadKey();
+  }
+}
